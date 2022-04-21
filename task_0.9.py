@@ -4,8 +4,7 @@ def vowel_checker():
     """
     Takes a strings and outputs the vowels from that string
     """
-    vowel = [each for each in string if each in vowels]
-    print(f"Vowels: {vowel}")
-     
-vowels = "AaEeIiOoUu"
+    vowels = ([v for v in 'aeiou' if v in string])
+    print(f"Vowels: {vowels}")
+    
 vowel_checker()

@@ -10,4 +10,4 @@ def common_member():
     return output
 
 print("Common letters: ")
-print(common_member())
+print(set(common_member()))

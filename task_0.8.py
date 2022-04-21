@@ -11,6 +11,6 @@ def Convert(number):
     elif hour <= 1 and minutes >=2:
         print(f"{hour} hour, {minutes} miutes")
     else:
-        print(f"{hour} hour, {minutes} minute")
+        print(f"{hour} hours, {minutes} minute")
   
 Convert(number)
