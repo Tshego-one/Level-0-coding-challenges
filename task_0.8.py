@@ -1,4 +1,4 @@
-number = int(input("Please input your number: "))
+
 def Convert(number):
 
     hour = (number // 60)
@@ -13,4 +13,4 @@ def Convert(number):
     else:
         print(f"{hour} hours, {minutes} minute")
   
-Convert(number)
+Convert(188)

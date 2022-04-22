@@ -1,5 +1,3 @@
-# Using BODMAS to solve equations
-
 x = 1 + 1 * 2
 y = (1 + 1) * 2
 z = 1 + (1 * 2)

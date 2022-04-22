@@ -1,24 +1,17 @@
-celsius = int(input("Please input your value: "))
+# Converting celsius to fahrenheit
+def change(celsius):
 
-def change(c):
-    """
-    Converts celsius degress to fahrenheit
-    """
     fahrenheit = (9/5 * celsius) + 32
     return fahrenheit
     
-fahrenheit = change(celsius)
+fahrenheit = change(30)
 print(f"{fahrenheit} fahrenheit")
 
+# Converting fahrenheit to celsius
+def change(fahrenheit):
 
-fahrenheit = int(input("Please input your value: "))
-
-def change(f):
-    """
-    Converts fahrenheit to degrees celsius
-    """
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
-celsius = change(fahrenheit)
+celsius = change(86)
 print(f"{celsius} degrees celsius")
