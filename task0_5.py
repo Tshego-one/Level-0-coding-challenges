@@ -1,7 +1,7 @@
 import math
-def area_of_triangle(length1, length2, length3):
+def area_of_triangle(side1, side2, side3):
 
-    s = (length1 + length2 + length3) / 2
-    area = math.sqrt((s*(s-length1)*(s-length2)*(s-length3)))
+    s = (side1 + side2 + side3) / 2
+    area = math.sqrt((s*(s-side1)*(s-side2)*(s-side3)))
     return area
 print(area_of_triangle(2, 3, 4))

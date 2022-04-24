@@ -1,4 +1,4 @@
-def max_num(a, b, c):
+def max_value(a, b, c):
 
     if a > b and c:
         maximum = a
@@ -9,4 +9,4 @@ def max_num(a, b, c):
 
     return maximum
 
-print(max_num(1, 22, 3))
+print(max_value(1, 22, 3))

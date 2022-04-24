@@ -1,5 +1,5 @@
 
-def Convert(number):
+def Change(number):
 
     hour = (number // 60)
     minutes = (number % 60)
@@ -13,4 +13,4 @@ def Convert(number):
     else:
         print(f"{hour} hours, {minutes} minute")
   
-Convert(188)
+Change(188)

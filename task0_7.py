@@ -1,17 +1,17 @@
 # Converting celsius to fahrenheit
-def convert(celsius):
+def change(celsius):
 
     fahrenheit = (9/5 * celsius) + 32
     return fahrenheit
     
-fahrenheit = convert(30)
+fahrenheit = change(30)
 print(f"{fahrenheit} fahrenheit")
 
 # Converting fahrenheit to celsius
-def change(fahrenheit):
+def convert(fahrenheit):
 
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
-celsius = change(86)
+celsius = convert(86)
 print(f"{celsius} degrees celsius")
